@@ -10,7 +10,6 @@ The focus of this project is on:
 - Modeling data into analytics-friendly structures
 - Orchestrating workflows using Azure Data Factory
 
----
 
 ## Dataset
 **Source:** Kaggle  
@@ -24,7 +23,7 @@ The dataset represents retail sales transactions for a fictional superstore and 
 - Geographic attributes (region, state, city)
 - Sales metrics
 
----
+
 
 ## Architecture Summary
 The solution follows a layered architecture:
@@ -33,7 +32,7 @@ Raw CSV (ADLS Gen2) -> Bronze Layer (Raw ingestion) -> Silver Layer (Cleaned & s
 
 Each layer is implemented as a **separate Databricks notebook**, ensuring clear separation of responsibilities and maintainability.
 
----
+
 
 ##  Medallion Architecture (High Level)
 
@@ -54,7 +53,6 @@ Each layer is implemented as a **separate Databricks notebook**, ensuring clear 
 
 > **Detailed implementation for each layer is available in the `Notebooks/` folder.**
 
----
 
 ## Data Modeling
 The Gold layer applies **data modeling techniques** to structure the data for analytics use cases.
@@ -65,7 +63,7 @@ The Gold layer applies **data modeling techniques** to structure the data for an
 
 > **Detailed data model diagrams and explanations are available in the `data_modeling/` folder.**
 
----
+
 
 ## Orchestration with Azure Data Factory
 Azure Data Factory is used to orchestrate the pipeline execution.
@@ -77,9 +75,6 @@ Key orchestration features:
 
 This ensures controlled, repeatable, and automated pipeline execution.
 
-> **ADF pipeline configurations and screenshots are available in the `ADF orchestration/` folder.**
-
----
 
 ## Analytics & Visualization
 The curated **Gold-layer datasets** are designed to be directly consumed inBI tool **Power BI** for reporting and analysis.
@@ -88,7 +83,6 @@ The curated **Gold-layer datasets** are designed to be directly consumed inBI to
 - Business-focused views simplify dashboard creation
 - Aggregated datasets enable analysis of sales trends, regional performance, and product-level insights
 
----
 
 ## Key Outcomes
 - Built an end-to-end data pipeline using the Medallion Architecture on Azure Databricks
@@ -96,5 +90,4 @@ The curated **Gold-layer datasets** are designed to be directly consumed inBI to
 - Applied data modeling techniques to organize data into fact and dimension tables
 - Orchestrated the pipeline execution using Azure Data Factory
 - Enabled sales reporting and insight generation using Power BI
----
 
