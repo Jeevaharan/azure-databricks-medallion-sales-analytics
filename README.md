@@ -52,7 +52,7 @@ Each layer is implemented as a **separate Databricks notebook**, ensuring clear 
 - Business-level aggregations
 - Optimized for reporting and visualization
 
-> **Detailed implementation for each layer is available in the `notebooks/` folder.**
+> **Detailed implementation for each layer is available in the `Notebooks/` folder.**
 
 ---
 
@@ -63,7 +63,7 @@ The Gold layer applies **data modeling techniques** to structure the data for an
 - Dimension tables provide descriptive attributes
 - The model is designed to support efficient slicing, filtering, and aggregation
 
-> **Detailed data model diagrams and explanations are available in the `data_model/` folder.**
+> **Detailed data model diagrams and explanations are available in the `data_modeling/` folder.**
 
 ---
 
@@ -77,7 +77,7 @@ Key orchestration features:
 
 This ensures controlled, repeatable, and automated pipeline execution.
 
-> **ADF pipeline configurations and screenshots are available in the `adf/` folder.**
+> **ADF pipeline configurations and screenshots are available in the `ADF orchestration/` folder.**
 
 ---
 
