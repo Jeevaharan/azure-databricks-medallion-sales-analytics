@@ -10,6 +10,8 @@ The focus of this project is on:
 - Modeling data into analytics-friendly structures
 - Orchestrating workflows using Azure Data Factory
 
+![Azure Architecture](Images/AzureArchitecture.png)
+
 
 ## Dataset
 **Source:** Kaggle  
