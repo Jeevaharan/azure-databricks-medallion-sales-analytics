@@ -30,6 +30,7 @@ The Gold layer follows a **star schema design**, which is widely used for BI and
 
 These tables provide descriptive attributes that enrich the fact data.
 
+![ADF Workflow](../Images/Star_schema.png)
 
 
 ## Benefits of This Model
