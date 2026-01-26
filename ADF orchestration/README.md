@@ -4,7 +4,7 @@
 
 The image below illustrates the Azure Data Factory pipeline used to orchestrate the Databricks notebooks:
 
-![ADF Workflow](../Images/AzureDataFactoryworflow.png)
+![ADF Workflow](../Images/AzureDataFactoryworkflow.png)
 
 
 The pipeline is **scheduled to run daily on a regular basis**, enabling automated and repeatable data processing.
